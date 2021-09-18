@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Instruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 640px;
+}
+
+.guide {
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+}
+
+.sign-language.name {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-language.image {
+    max-width: 100%;
+}
